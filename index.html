@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil - Bonheur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Lien vers le CSS fourni -->
+    <link rel="stylesheet" href="semanstyle.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Mon Profil Personnel</h1>
+    <p>Bienvenue sur ma page web sémantique</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <article>
+        <header>
+            <h2>À propos de moi</h2>
+        </header>
+
+        <section>
+            <h3>Présentation</h3>
+            <p>Je m'appelle Bonheur, je suis passionné par le développement web et j'apprends actuellement HTML.</p>
+        </section>
+
+        <section>
+            <h3>Mes objectifs</h3>
+            <ul>
+                <li>Maîtriser HTML</li>
+                <li>Apprendre CSS</li>
+                <li>Devenir développeur web</li>
+            </ul>
+        </section>
+
+    </article>
+
+    <aside>
+        <h2>Informations secondaires</h2>
+        <p>J'habite à Brazzaville.</p>
+        <p>J'aime la technologie et apprendre de nouvelles choses.</p>
+    </aside>
+
+    <section>
+        <h2>Contactez-moi</h2>
+
+        <form>
+
+            <fieldset>
+                <legend>Informations personnelles</legend>
+
+                <p>
+                    <label for="nom">Nom :</label><br>
+                    <input type="text" id="nom" name="nom" required>
+                </p>
+
+                <p>
+                    <label for="email">Email :</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre message</legend>
+
+                <p>
+                    <label for="message">Message :</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="submit">Envoyer</button>
+            </p>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Bonheur | Projet HTML Sémantique</p>
+</footer>
+
+</body>
+</html>
