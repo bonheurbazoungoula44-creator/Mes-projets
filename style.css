@@ -1,0 +1,276 @@
+/* =========================
+   SECTION ÉQUIPE
+========================= */
+
+.team {
+    padding: 80px 10%;
+    background: #f5f9f5;
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1b5e20;
+    margin-bottom: 15px;
+}
+
+.team-description {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.team-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.team-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.team-content {
+    padding: 20px;
+}
+
+.team-content h3 {
+    color: #2e7d32;
+    margin-bottom: 8px;
+}
+
+.team-content h4 {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.team-content p {
+    color: #555;
+    line-height: 1.6;
+}/* =========================
+   RÉSEAUX SOCIAUX
+========================= */
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    background: #2e7d32;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: #1b5e20;
+    transform: scale(1.1);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .team {
+        padding: 60px 20px;
+    }
+
+    .team h2 {
+        font-size: 2rem;
+    }
+
+    .team-description {
+        font-size: 0.95rem;
+    }
+
+    .team-card img {
+        height: 240px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .team h2 {
+        font-size: 1.8rem;
+    }
+
+    .team-card {
+        border-radius: 12px;
+    }
+
+    .team-content {
+        padding: 18px;
+    }
+
+    .social-icons a {
+        width: 36px;
+        height: 36px;
+    }
+}/* =====================
+   FOOTER REFORESTKONGO
+   ===================== */
+
+
+.footer {
+
+    background:#052e16;
+    color:white;
+    padding:50px 20px 20px;
+
+}
+
+
+.footer-container {
+
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+
+.footer-section h2 {
+
+    color:#52b788;
+    margin-bottom:15px;
+
+}
+
+
+.footer-section h3 {
+
+    color:#95d5b2;
+    margin-bottom:15px;
+
+}
+
+
+.footer-section p {
+
+    color:#d8f3dc;
+    line-height:1.6;
+
+}
+
+
+.footer-section ul {
+
+    list-style:none;
+
+}
+
+
+.footer-section li {
+
+    margin-bottom:10px;
+
+}
+
+
+.footer-section a {
+
+    color:#d8f3dc;
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+
+.footer-section a:hover {
+
+    color:#52b788;
+
+    padding-left:8px;
+
+}
+
+
+
+/* Réseaux sociaux */
+
+.social-links {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+
+/* Bas du footer */
+
+.footer-bottom {
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,0.2);
+
+    margin-top:40px;
+
+    padding-top:20px;
+
+    color:#b7e4c7;
+
+}
+
+
+
+/* Responsive mobile */
+
+@media(max-width:800px){
+
+.footer-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+
+.social-links{
+
+align-items:center;
+
+}
+
+}
